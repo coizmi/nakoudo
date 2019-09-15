@@ -1,0 +1,10 @@
+#!/bin/sh
+
+set -e
+
+export ROCKETCHAT_URL=https://your.rocketchat.server.com/
+export ROCKETCHAT_USER=your_bot_name
+export ROCKETCHAT_PASSWORD=your_bot_password
+export ROCKETCHAT_AUTH=password
+
+npx hubot --name $ROCKETCHAT_USER -a rocketchat "$@"
