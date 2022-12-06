@@ -6,7 +6,7 @@
   "description": "A simple helpful robot for your Company",
   "dependencies": {
     "cron": "^1.7.1",
-    "hubot": "^2.19.0",
+    "hubot": "^3.3.2",
     "hubot-rocketchat": "^1.0.12",
     "node-fetch": "^2.6.0",
     "yaml": "^1.6.0"
